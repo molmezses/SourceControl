@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        VStack {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
@@ -19,6 +19,9 @@ struct ContentView: View {
                 
             }, label: {
                 Text("Click me!")
+                    .foregroundStyle(.windowBackground)
+                    .padding()
+                    .background(.red)
             })
 
         }
