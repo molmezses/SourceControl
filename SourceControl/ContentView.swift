@@ -15,6 +15,11 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Mustafa Ölmezses")
             
+            Button(action: {
+                
+            }, label: {
+                Text("Click me!")
+            })
 
         }
         .padding()
