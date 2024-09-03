@@ -15,6 +15,10 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Mustafa Ölmezses")
             
+            Button("Nah button") {
+                
+            }
+            
             Button(action: {
                 
             }, label: {
