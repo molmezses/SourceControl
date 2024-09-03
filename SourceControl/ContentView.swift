@@ -22,7 +22,7 @@ struct ContentView: View {
             Button(action: {
                 
             }, label: {
-                Text("Click me!")
+                Text("Click me! mustafa")
                     .foregroundStyle(.windowBackground)
                     .padding()
                     .background(.green)
