@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("Click me!")
                     .foregroundStyle(.windowBackground)
                     .padding()
-                    .background(.red)
+                    .background(.green)
             })
 
         }
