@@ -11,6 +11,7 @@
 		8E0EBF3D2C8654AD002EE5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0EBF3C2C8654AD002EE5D2 /* ContentView.swift */; };
 		8E0EBF3F2C8654AF002EE5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0EBF3E2C8654AF002EE5D2 /* Assets.xcassets */; };
 		8E0EBF422C8654AF002EE5D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0EBF412C8654AF002EE5D2 /* Preview Assets.xcassets */; };
+		8E240AFC2C8751CE006B17F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E240AFB2C8751CE006B17F5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8E0EBF3C2C8654AD002EE5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E0EBF3E2C8654AF002EE5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E0EBF412C8654AF002EE5D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E240AFB2C8751CE006B17F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8E0EBF3A2C8654AD002EE5D2 /* SourceControlApp.swift */,
 				8E0EBF3C2C8654AD002EE5D2 /* ContentView.swift */,
+				8E240AFB2C8751CE006B17F5 /* HomeView.swift */,
 				8E0EBF3E2C8654AF002EE5D2 /* Assets.xcassets */,
 				8E0EBF402C8654AF002EE5D2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E240AFC2C8751CE006B17F5 /* HomeView.swift in Sources */,
 				8E0EBF3D2C8654AD002EE5D2 /* ContentView.swift in Sources */,
 				8E0EBF3B2C8654AD002EE5D2 /* SourceControlApp.swift in Sources */,
 			);
